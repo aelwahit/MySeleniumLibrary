@@ -6,16 +6,18 @@ public class Library {
 
     }
 
- public static void sleep(double x
- ){
+    public static void sleep(double x
+    ) {
 
 
-     try {
-         Thread.sleep(1000*(long) x);
-     } catch (InterruptedException e) {
-         e.printStackTrace();
-     }
- }
+        try {
+            Thread.sleep(1000 * (long) x);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+
+    }
 
 
 
